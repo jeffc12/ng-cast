@@ -1,6 +1,5 @@
 angular.module('video-player')
 .controller('searchController', function() {
-
     this.newSearch = () => {
       this.service.search(this.input, (data) => {
 
